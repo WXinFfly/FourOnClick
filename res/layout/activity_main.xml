@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_anonymous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类" />
+    <Button 
+        android:id="@+id/btn_InnerClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部类"/>
+    <Button 
+        android:id="@+id/btn_Interface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实现接口的方式" />
+    <Button 
+        android:onClick="XmlConfigure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实现接口的方式" />
+
+</LinearLayout>
